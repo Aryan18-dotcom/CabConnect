@@ -28,6 +28,25 @@
   z-index: 1;
 }
 
+.site-footer .developer-credit {
+  display: grid;
+  gap: 5px;
+  line-height: 1.5;
+}
+
+.site-footer .developer-credit strong {
+  color: var(--ink);
+}
+
+.site-footer .developer-credit a {
+  color: var(--wine);
+  font-weight: 700;
+}
+
+.site-footer .developer-credit a:hover {
+  text-decoration: underline;
+}
+
 .next-content {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
@@ -413,6 +432,11 @@
 }
 
 @media (max-width: 600px) {
+  .site-footer .developer-credit {
+    order: 4;
+    width: 100%;
+  }
+
   .next-field-grid {
     grid-template-columns: 1fr;
   }
