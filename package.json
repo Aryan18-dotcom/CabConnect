@@ -11,7 +11,7 @@
     "seed:data": "node seedData.js"
   },
   "engines": {
-    "node": ">=20.9"
+    "node": "22.x"
   },
   "dependencies": {
     "argon2": "^0.31.2",
