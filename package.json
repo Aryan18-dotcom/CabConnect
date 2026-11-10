@@ -1,0 +1,26 @@
+{
+  "name": "cabconnect",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cab booking, fleet and partner operations management",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "seed:data": "node seedData.js"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "argon2": "^0.31.2",
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.9.5",
+    "next": "^16.4.6",
+    "nodemailer": "^10.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
