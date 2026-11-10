@@ -51,7 +51,7 @@ Set `NODE_ENV=production` and configure `MONGODB_URI` and a strong `SESSION_SECR
 
 ```env
 NODE_ENV=production
-MONGODB_URI=mongodb+srv://...
+MONGODB_URI=mongodb+srv://Admin:<db_password>@firstcluster.wwqwyh2.mongodb.net/cabconnect
 SESSION_SECRET=use-a-long-random-secret
 ```
 
@@ -159,4 +159,5 @@ Gmail usually uses `smtp.gmail.com`, port `587`, and STARTTLS (secure disabled);
 
 The public inquiry endpoint validates the 10-digit Indian mobile number, a positive estimated trip distance, consent, and up to three preferred vehicles. The booking flow can estimate road distance from pickup and destination; customers may edit the estimate before submitting.
 #   C a b C o n n e c t  
+ #   C a b C o n n e c t  
  
